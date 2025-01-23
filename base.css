@@ -1,5 +1,6 @@
 html, body {
     margin: 0;
+    font-family: 'Trebuchet MS';
 }
 body {
     background-color: #f1f1f1;
@@ -20,12 +21,12 @@ body {
 }
 .menu {
     width: 15%;
-    background-color: aqua;
+    background-color: black;
     padding: 10px 20px 0px;
 }
 .header {
-    background-color: rgb(5, 108, 108);
-    min-height: 150px;
+    background-color: rgb(0, 0, 0);
+    height: 150px;
 }
 .content {
     background-color: white;
@@ -33,6 +34,49 @@ body {
     padding: 20px;
 }
 .footer {
-    background-color: rgb(99, 56, 240);
+    background-color: black;
     min-height: 150px;
+    color: white;
+    text-align: center;
+}
+.menu-item {
+    color: white;
+    font-size: 15px;
+    
+}
+#title-header {
+    color: white;
+    text-align: center;
+    margin-top: 50px;
+}
+#subtitle-menu {
+    color: white;
+    font-size: 15px;
+    text-align: center;
+
+}
+table {
+    border: solid 1px black;
+
+}
+
+table thead tr {
+    background-color: black;
+    color: white;
+}
+
+table tbody td {
+    border: solid 0.01px black;
+    padding-left: 5px;
+}
+form label {
+    display: inline-block;
+    width: 80px;
+    margin-bottom: 10px;
+}
+form button {
+    margin-top: 15px;
+}
+form textarea{
+    width: 157px;
 }
